@@ -12,7 +12,6 @@ public class GameControl : MonoBehaviour
         view.UpdateCoinCount(model.CoinCount, model.challengeTarget);
         GenerateNextObject();
     }
-
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
